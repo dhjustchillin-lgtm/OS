@@ -1,0 +1,1 @@
+killall qemu-system-i386 2>/dev/null; qemu-system-i386 -drive file=build/main_floppy.img,format=raw,if=floppy -nographic
